@@ -26,11 +26,11 @@ bool Tick(struct repeating_timer *t) {
 
     if (inc) counter_inc(&counter);
     if (dec) counter_dec(&counter);
-    display_led(counter.value); 
+    display_led(counter.val); 
 
     return true; 
 }
-*/ 
+*/
 
 int main() {
     stdio_init_all();
